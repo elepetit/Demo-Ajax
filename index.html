@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href = "jquery-ui/jquery-ui.css" rel = "stylesheet">
+    <link href = "jquery-ui/jquery-ui.structure.css" rel = "stylesheet">
+    <link href = "jquery-ui/jquery-ui.css" rel = "stylesheet">
+    <link href = "jquery-ui/jquery-ui.theme.css" rel = "stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="container">
+    <h1>Shopping List</h1>
+    <aside id="cart" class="cart block">
+        <p class="medium-title">Panier</p>
+        <ul class="item-list"></ul>
+        <p id="total" class="total"></p>
+        <a id="cmd-btn" class="btn btn-important display-btn" href="#">Valider la commande</a>
+    </aside>
+</header>
+    <section class="product-list flex container">
+        <ul class="products-list"></ul>
+    </section>
+<div id = "dialog-1" class="dialog"
+     title = "INFORMATION">Le stock de cette référence est épuisé !</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

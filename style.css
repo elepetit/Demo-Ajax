@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto', verdana, helvetica, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+aside ul li{
+    list-style: none;
+}
+.container {
+    max-width:900px;
+    margin:0 auto;
+
+}
+
+
+.btn{
+    border-radius: 5px;
+    display: inline-block;
+    padding:10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-important{
+    background-color: #ff7600;
+    color: #fffffc;
+
+}
+
+.btn-information{
+    background-color: lightblue;
+    color: white;
+}
+
+.cart{
+    display: inline-block;
+    width:100%;
+    float: right;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    padding:20px;
+    margin:5px;
+    border:2px solid blue;
+}
+.medium-title{
+    font-size: 120%;
+    text-align: center;
+}
+.total{
+    text-align: center;
+    font-weight: bold;
+}
+
+.products-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+.products-list li{
+    display: flex;
+    list-style: none;
+}
+.products-list li article a{
+    margin-top: auto;
+    align-self: center;
+}
+.ui-widget-header,.ui-state-default, ui-button {
+    background:darkorange;
+    border: 1px solid #b9cd6d;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#dialog-1{
+    width: 400px;
+}
+.display-btn{
+    opacity: 0;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
